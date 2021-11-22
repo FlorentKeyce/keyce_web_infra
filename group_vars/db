@@ -1,0 +1,5 @@
+---
+
+node_role: db
+db_server: mariadb
+

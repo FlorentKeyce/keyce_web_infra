@@ -1,0 +1,10 @@
+---
+
+- name: Deploiement de la bdd
+  hosts: db
+  tasks:
+  - name: Installation du paquet mysql
+    package:
+      name: mariadb-server
+      state: latest
+      

@@ -1,0 +1,5 @@
+---
+
+node_role: web
+http_server: nginx
+
